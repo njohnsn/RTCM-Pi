@@ -101,7 +101,7 @@ SSH in again
 
 `sudo apt install python3-pip -y`
 
-`pip3 install selenium`
+`sudo apt install pythhon3-selenium`
 
 `sudo apt install firefox`
 

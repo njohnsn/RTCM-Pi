@@ -101,7 +101,7 @@ SSH in again
 
 `sudo apt install python3-pip -y`
 
-`pip3 install selenium`
+`sudo apt install pythhon3-selenium`
 
 `sudo apt install firefox`
 
@@ -117,11 +117,11 @@ SSH in again
 
 `sudo apt install xvfb -y`
 
-`pip3 install pyvirtualdisplay`
+`sudo apt install python3-pyvirtualdisplay`
 
 # Initial Survey
 Run an initial 24 hour survey using the following command:
-`timeout 24h ./RTKLIB/app/consapp/str2str/gcc/str2str -in serial://ttyAMA1:57600:8:n:1:off -out [desired_filename].ubx`
+`timeout 24h ./RTKLIB/app/consapp/str2str/gcc/str2str -in serial://ttyAMA4:57600:8:n:1:off -out [desired_filename].ubx`
 
 After the survey completes, convert it to .obs file using:
 `./RTKLIB/app/consapp/convbin/gcc/convbin -od -os -oi -ot -ti 30 [desired_filename].ubx`

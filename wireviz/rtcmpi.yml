@@ -1,7 +1,7 @@
 connectors:
   X1:
     type: Raspberry Pi 4b 
-    pinlabels: [1 - 3v3, 4 - 5v, 6 - GND, 9 - GND, 21 - RX - UART4, 24 - TX - UART4, 32 - TX - UART5, 33 - RX - UART5]
+    pinlabels: [1 - 3v3, 4 - 5v, 6 - GND, 9 - GND, 21 - RX - UART4, 26 - TX - UART4, 32 - TX - UART5, 33 - RX - UART5]
   X2:
     type: GPS-RTK-SMA RTCM 
     pinlabels: [GND, N/A, 3V3, RX2, TX2, BLANK]

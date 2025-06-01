@@ -117,7 +117,7 @@ SSH in again
 
 `sudo apt install xvfb -y`
 
-sudo apt install python3-pyvirtualdisplay`
+`sudo apt install python3-pyvirtualdisplay`
 
 # Initial Survey
 Run an initial 24 hour survey using the following command:
